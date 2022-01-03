@@ -16,7 +16,6 @@ export default function fetchCountries(name) {
 function renderCountryCard(countries) {
     console.log(countries);
     if (countries.length === 1) {
-        ulList.classList.add('.hidden');
         const markup = countries.map((country) => {
             return `
         <div class="head-container">
