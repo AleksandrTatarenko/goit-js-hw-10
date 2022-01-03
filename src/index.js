@@ -15,4 +15,3 @@ function onSearch(e) {
     const countryName =  e.target.value;
     fetchCountries(countryName)
 };
-
